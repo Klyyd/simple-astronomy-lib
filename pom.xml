@@ -7,7 +7,12 @@
     <groupId>com.bradsbrain</groupId>
     <artifactId>SimpleAstronomyLib</artifactId>
     <version>0.3.0</version>
-
+    <repositories>
+        <repository>
+            <id>simple-astronomy-group</id>
+            <url>http://localhost:8081/repository/simple-astronomy-group/</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -62,5 +67,5 @@
             </plugin>
         </plugins>
     </build>
-
+    
 </project>
