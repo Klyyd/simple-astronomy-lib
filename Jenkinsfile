@@ -7,6 +7,12 @@ pipeline {
         echo 'Building ...'
         'mvn -B -DskipTests clean package'
       }
+      post {
+          success {
+            junit '*/target/surefire-reports/TEST-.xml'
+            archiveArtifacts 'target/*.jar'
+        }
+      }
     }
     
     stage ('Test') {
