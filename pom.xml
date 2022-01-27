@@ -14,11 +14,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://localhost:8081/repository/simple-astronomy-snapshots/</url>
+            <url>http://localhost:8081/repository/simpleAstronomy-snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:8081/repository/simple-astronomy-releases/</url>
+            <url>http://localhost:8081/repository/simpleAstronomy-release/</url>
         </repository>
     </distributionManagement>
     <dependencies>
